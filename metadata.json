@@ -1,0 +1,8 @@
+{
+  "name": "Moto Sanayi - Profesyonel Motosiklet Servis & Performans",
+  "description": "İstanbul'un premium motosiklet ve scooter servis merkezi. Periyodik bakım, CVT varyatör optimizasyonu, arıza tespiti ve online randevu sistemi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
