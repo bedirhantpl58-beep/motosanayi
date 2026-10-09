@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { ServicesSection } from './components/ServicesSection';
-import { PerformanceSection } from './components/PerformanceSection';
-import { BeforeAfterSection } from './components/BeforeAfterSection';
-import { ModelsExpertise } from './components/ModelsExpertise';
-import { TransparencySection } from './components/TransparencySection';
-import { BookingSection } from './components/BookingSection';
-import { InstagramGarage } from './components/InstagramGarage';
-import { ContactSection } from './components/ContactSection';
-import { Footer } from './components/Footer';
-import { FloatingWhatsApp } from './components/FloatingWhatsApp';
-import { TrackAppointmentModal } from './components/TrackAppointmentModal';
-import { AdminPanel } from './components/AdminPanel';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { ServicesSection } from './ServicesSection';
+import { PerformanceSection } from './PerformanceSection';
+import { BeforeAfterSection } from './BeforeAfterSection';
+import { ModelsExpertise } from './ModelsExpertise';
+import { TransparencySection } from './TransparencySection';
+import { BookingSection } from './BookingSection';
+import { InstagramGarage } from './InstagramGarage';
+import { ContactSection } from './ContactSection';
+import { Footer } from './Footer';
+import { FloatingWhatsApp } from './FloatingWhatsApp';
+import { TrackAppointmentModal } from './TrackAppointmentModal';
+import { AdminPanel } from './AdminPanel';
 
 export default function App() {
   const [selectedServiceId, setSelectedServiceId] = useState<string | undefined>();
