@@ -1,7 +1,6 @@
 import crypto from 'node:crypto';
-import { db, json, method } from './_db';
-import { requireAdmin } from './_auth';
-
+import { db, json, method } from './_db.js';
+import { requireAdmin } from './_auth.js';
 const statuses = new Set(['yeni', 'onaylandi', 'serviste', 'tamamlandi', 'iptal']);
 const clean = (value: unknown, max = 500) => String(value ?? '').trim().slice(0, max);
 const phoneClean = (value: string) => value.replace(/\D/g, '').slice(-15);
